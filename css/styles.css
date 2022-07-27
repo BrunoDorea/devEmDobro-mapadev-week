@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'Pokemon Hollow';
+  src: url('./fonts/Pokemon Hollow.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Pokemon Solid';
+  src: url('./fonts/Pokemon Solid.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 /* Padrão de Cores e Estilização */
 :root {
   --Azul1: #6D83F2;
@@ -5,4 +18,11 @@
   --Azul3: #00082f;
   --Preto1: #383838;
   --CinzaClaro: #E5E5E5;
+
+  font-family: 'Pokemon Hollow', 'Outfit', sans-serif;
+  font-weight: normal;
+}
+
+footer {
+  font-family: 'Outfit', sans-serif;
 }
