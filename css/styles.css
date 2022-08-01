@@ -97,7 +97,8 @@ body {
   padding: 0.75rem;
   border-radius: 0.625rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+  opacity: 0;
 }
 
 .cartao.selecionado {
